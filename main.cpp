@@ -13,8 +13,10 @@ int main()
         } else {
             std::string password { Generator::getRandomPassword(static_cast<std::size_t>(passwordSize)) };
             std::cout << "Your generated password is: " << password << "\n";
+
+            break;
         }
     }
-
+ 
     return 0;
 }
